@@ -23,13 +23,17 @@ body {
 .m-container {
   max-width: 590px;
   margin: 0 auto;
-  border: 1px solid;
+  /* border: 1px solid; */
   height: 100%;
 }
 
 .lg-container {
   max-width: 100%;
   margin: 0 auto;
+}
+
+img {
+  width: 60%;
 }
 
 li {
@@ -78,6 +82,28 @@ header {
   color: white;
 }
 
+/* Btn-Color */
+
+.twitter {
+  color: #009eff;
+}
+
+.facebook {
+  color: #1a77f3;
+}
+
+.instagram {
+  color: ;
+}
+
+.pinterest {
+  color: #e72222;
+}
+
+.youtube {
+  color: #e62222;
+}
+
 /* Fake Button */
 
 .sm-btn {
@@ -90,10 +116,40 @@ header {
   border-radius: 5px;
 }
 
+.scl-btn {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+/* MARGIN-BOTTOM */
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
 /* FONT-WEIGHT */
 
 .bolder {
   font-weight: bolder;
+}
+
+/* Divisor */
+
+.lg-divisor {
+  border: 1px solid grey;
+  margin: 0 60px;
+}
+
+.sm-divisor {
+  border: 2px solid #f7972e;
+  width: 100px;
 }
 
 /* RECIPE */
@@ -117,16 +173,16 @@ header {
   justify-content: center;
 }
 
+/* Bottom-Box */
+.bottom-box {
+  box-shadow: 0px 10px 15px -1px rgba(0, 0, 0, 0.4);
+}
+
 .kcal {
   display: flex;
   justify-content: space-between;
   padding: 10px;
   margin-top: 30px;
-}
-
-.lg-divisor {
-  border: 1px solid grey;
-  margin: 0 60px;
 }
 
 .veg {
@@ -136,4 +192,30 @@ header {
 .recipe-ingredients {
   padding: 30px;
   line-height: 2rem;
+}
+
+/* SOCIAL */
+
+.social {
+  padding: 20px;
+}
+.social li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.fa-brands {
+  font-size: 2rem;
+}
+
+/* FLOAT-CONTENT */
+.float-content {
+  float: left;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #7c69a4;
+  height: 100px;
 }
