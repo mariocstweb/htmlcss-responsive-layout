@@ -1,0 +1,139 @@
+/* CSS RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  /* background-color: #f6f5f3; */
+  background-color: lightgrey;
+}
+
+.sm-container {
+  max-width: 500px;
+  margin: 0 auto;
+  /* border: 1px solid; */
+  height: 100%;
+  background-color: #f6f5f9;
+}
+
+.m-container {
+  max-width: 590px;
+  margin: 0 auto;
+  border: 1px solid;
+  height: 100%;
+}
+
+.lg-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+/* HEADER */
+
+header {
+  font-family: "Nerko One";
+  background-color: #ffffff;
+}
+
+#logo {
+  font-size: 5rem;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px black;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Background-color */
+.bgc-y {
+  background-color: #f7972e;
+}
+
+.bgc-p {
+  background-color: #4e3969;
+}
+
+/* Color */
+.clr-y {
+  color: #f7972e;
+}
+
+.clr-p {
+  color: #4e3969;
+}
+
+.clr-lgr {
+  color: lightgrey;
+}
+
+.clr-wht {
+  color: white;
+}
+
+/* Fake Button */
+
+.sm-btn {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.m-btn {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* FONT-WEIGHT */
+
+.bolder {
+  font-weight: bolder;
+}
+
+/* RECIPE */
+
+.recipe {
+  font-size: 1.2rem;
+}
+
+.recipe-title {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.right-title {
+  align-items: baseline;
+}
+
+.recipe-video {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.kcal {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.lg-divisor {
+  border: 1px solid grey;
+  margin: 0 60px;
+}
+
+.veg {
+  padding: 10px;
+}
+
+.recipe-ingredients {
+  padding: 30px;
+  line-height: 2rem;
+}
