@@ -33,6 +33,7 @@ body {
 
 img {
   width: 60%;
+  margin-right: 10px;
 }
 
 li {
@@ -47,11 +48,12 @@ header {
 }
 
 #logo {
-  font-size: 5rem;
+  font-size: 3rem;
   text-decoration: none;
   text-shadow: 2px 2px 2px black;
   display: flex;
   justify-content: center;
+
   padding: 10px;
 }
 
@@ -180,6 +182,13 @@ header {
 }
 
 /* RECIPE */
+.title-inline {
+  display: inline-block;
+}
+
+.invisible-h2 {
+  display: none;
+}
 
 .recipe {
   font-size: 1.2rem;
@@ -190,26 +199,54 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
 .right-title {
   display: flex;
   align-items: baseline;
   align-self: flex-end;
 }
 
-.recipe-video {
+/* .recipe-video {
   display: flex;
   justify-content: center;
-}
+} */
 
 iframe {
   width: 100%;
-  height: 315px;
+  min-height: 394px;
   border: none;
+}
+
+.fake-video {
+  max-width: 100%;
+  height: auto;
 }
 
 .grey-box {
   background-color: #f6f5f9;
   padding: 10px;
+}
+
+.row {
+  /* border: 1px solid goldenrod; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  row-gap: 1rem;
+}
+
+.col {
+  flex-basis: 100%;
+  /* border: 1px solid; */
+}
+
+.card {
+  /* border: 1px solid red;
+  background-color: red; */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 /* Bottom-Box */
@@ -237,7 +274,8 @@ iframe {
 /* SOCIAL */
 
 .social {
-  padding: 20px;
+  padding: 40px 20px;
+  text-align: center;
 }
 .social li {
   display: inline;
@@ -246,6 +284,16 @@ iframe {
 
 .fa-brands {
   font-size: 2rem;
+}
+
+.scl-brands {
+  display: none;
+}
+
+/* BANNER */
+
+.banner-section {
+  display: none;
 }
 
 /* FLOAT-CONTENT */

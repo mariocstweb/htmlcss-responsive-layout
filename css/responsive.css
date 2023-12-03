@@ -1,0 +1,122 @@
+.row {
+  margin: 0 -1rem;
+}
+
+.col {
+  padding: 0 1rem;
+}
+@media screen and (min-width: 769px) {
+  .sm-container {
+    max-width: 650px;
+  }
+
+  .m-container {
+    max-width: 700px;
+  }
+
+  #logo {
+    justify-content: flex-start;
+    font-size: 4rem;
+  }
+
+  .invisible-h2 {
+    display: block;
+  }
+
+  .banner-section {
+    display: block;
+  }
+
+  #banner {
+    width: 100%;
+  }
+
+  .scl-btn {
+    padding: 10px 40px;
+    margin-bottom: 30px;
+  }
+
+  .social li {
+    margin: 0 5px;
+  }
+
+  .col {
+    flex-basis: calc(100% / 3);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .sm-container {
+    max-width: 1100px;
+  }
+
+  .m-container {
+    max-width: 1200px;
+  }
+
+  .col {
+    flex-basis: 100%;
+  }
+
+  .footer-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .footer-left {
+    text-align: left;
+  }
+
+  .footer-right {
+    align-items: baseline;
+    align-self: flex-end;
+    text-align: left;
+  }
+
+  footer ul li {
+    margin-right: 5px;
+  }
+
+  .row-recipe {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* row-gap: 1rem; */
+  }
+
+  .col-recipe-left {
+    flex-basis: 70%;
+  }
+
+  .col-recipe-right {
+    flex-basis: 30%;
+  }
+
+  .card-recipe {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .recipe-info {
+    padding: 0 20px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+  }
+
+  .scl-btn {
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+    padding: 10px 0px;
+  }
+
+  .scl-brands {
+    display: inline-block;
+  }
+}
